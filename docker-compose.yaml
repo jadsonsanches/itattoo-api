@@ -9,5 +9,3 @@ services:
       POSTGRES_PASSWORD: "itattoo2022"
     ports:
       - "5432:5432"
-    volumes:
-      - /home/jadsonsanches/www/jadson/itattoo/docker-compose/postgreSQL:/var/lib/postgresql/data
